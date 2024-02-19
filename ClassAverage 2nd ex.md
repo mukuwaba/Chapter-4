@@ -31,7 +31,7 @@ public class ClassAverage {
         if(gradeCounter != 0){
             //double average = total / 10
             double average = (double) total/ gradeCounter;
-            System.out.printf("%nTotal of all 10 grades is %d%n", total);// souf + TAB
+            System.out.printf("%nTotal of all 10 grades is %d%n", gradeCounter, total);// souf + TAB
             System.out.printf("Class average is %.2f%n," , average); //float with 2 decimal statements
         }
 
