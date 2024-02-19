@@ -26,17 +26,17 @@ public class ClassAverage {
             System.out.print("Enter grade or -1 to quit: ");
             grade =input.nextInt();
 
-        }//END While
-        //Only print the grade report if the user has enetered grades
+        }//END: while
+        //Only print the grade report if the user has entered grades
         if(gradeCounter != 0){
             //double average = total / 10
-            double average = (double) total/ gradeCounter;
+            double average = (double) total / gradeCounter;
             System.out.printf("%nTotal of all 10 grades is %d%n", gradeCounter, total);// souf + TAB
             System.out.printf("Class average is %.2f%n," , average); //float with 2 decimal statements
         }
 
-        else{
-            System.out.println("No grades were entered");
+        else {
+            System.out.println("No grades were entered.");
         }
         //Calculate the average
        // int average = total / 10;
